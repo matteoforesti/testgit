@@ -6,8 +6,8 @@
 int main()
 {
     std::vector<int> v{ 1, 2, 3, 4 };
-    int n1 = 3;
-    int n2 = 7;
+    int n1 = 2;
+    int n2 = 10;
     auto is_even = [](int i) { return i % 2 == 0; };
     auto is_lt2 = [](int i) { return i < 2; };
 
