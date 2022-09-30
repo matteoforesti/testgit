@@ -7,7 +7,7 @@ int main()
 {
     std::vector<int> v{ 1, 2, 3, 4 };
     int n1 = 3;
-    int n2 = 6;
+    int n2 = 7;
     auto is_even = [](int i) { return i % 2 == 0; };
     auto is_gt3 = [](int i) { return i > 3; };
 
