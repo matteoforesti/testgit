@@ -7,7 +7,7 @@ int main()
 {
     std::vector<int> v{ 1, 2, 3, 4 };
     int n1 = 3;
-    int n2 = 5;
+    int n2 = 6;
     auto is_even = [](int i) { return i % 2 == 0; };
 
     auto result1 = std::find(begin(v), end(v), n1);
